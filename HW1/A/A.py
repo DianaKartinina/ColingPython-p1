@@ -1,3 +1,6 @@
 def solution(a):
-    ### YOUR SOLUTION ###
-    return a
+    a = int(input("Введите число "))
+    n = a - 1
+    print(n)
+    return 
+
