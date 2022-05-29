@@ -1,8 +1,9 @@
-def solution(n):
-    number = int(input('Сколько пингвинов нужно изобразить? '))
-    print('   _~_    ' * number)
-    print('  (o o)   ' * number)
-    print(' /  V  \\  ' * number)
-    print('/(  _  )\\ ' * number)
-    print('  ^^ ^^   ' * number)
-    return
+def peng(n):
+    hair = '   _~_   ' *n
+    eyes = '  (o o)  ' *n
+    nose = ' /  V  \ ' *n
+    body = '/(  _  )\\' *n
+    paws = '  ^^ ^^  ' *n
+    f_p = (hair + '\n' + eyes + '\n' + nose + '\n'+ body + '\n'+ paws)
+    return f_p
+    
